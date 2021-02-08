@@ -1,0 +1,102 @@
+body {
+  background-color: #edd263;
+}
+.container {
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.d-flex {
+  display: flex;
+}
+.nav-flex {
+  justify-content: space-between;
+}
+.nav-flex a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  margin: 10px;
+}
+.logo a {
+  font-size: 25px;
+}
+nav {
+  background-color: #edd263;
+}
+.single-item {
+  background-color: teal;
+}
+.search {
+  width: 45vw;
+  margin: 100px auto;
+  text-align: center;
+}
+#search-input {
+  width: 330px;
+  height: 35px;
+  border-radius: 4px;
+  border: none;
+  font-size: 18px;
+  padding: 0 5px;
+}
+#search-btn {
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  background-color: white;
+  font-weight: bold;
+}
+#search-btn:hover {
+  background-color: gray;
+  color: white;
+}
+.food-items {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.food-item {
+  max-width: 250px;
+  height: 270px;
+  background-color: white;
+  margin: 10px 0;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+  padding-top: 6px;
+}
+.food-item img {
+  width: 96%;
+  height: 220px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  display: block;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.food-item h4 {
+  margin: 0;
+  color: black;
+}
+.food-items a {
+  cursor: pointer;
+}
+#error {
+  display: none;
+  color: white;
+  text-align: center;
+}
+#single-food-sec {
+  width: 30%;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 6px;
+  display: none;
+}
+#single-food-sec img {
+  width: 100%;
+  max-height: 240px;
+}

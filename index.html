@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="d-flex nav-flex">
+                <div class="logo">
+                    <a href="#">Cooking Master</a>
+                </div>
+                <div class="links">
+                    <a href="#">Home</a><a href="#">About</a><a href="#">Blogs</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- search area  -->
+        <section class="search">
+            <input type="text" id="search-input" placeholder=" Search your meals here...">
+            <button id="search-btn">Search</button>
+        </section>
+        <!-- error message -->
+        <section id="error">
+            <h1>Sorry, nothing matched your search.</h1>
+            <h2>Choose another meal.</h2>
+        </section>
+        <!-- single food display -->
+        <section id="single-food-sec">
+            <img id="food-img" src="https://www.themealdb.com/images/media/meals/ustsqw1468250014.jpg" alt="">
+            <h1 id="food-title">Bangladeshi Polaw</h1>
+            <h3>Ingredients</h3>
+            <ul id="ingredients">
+            </ul>
+        </section>
+        <!-- All food display -->
+        <section class="food-items d-flex" id="food-items"></section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
